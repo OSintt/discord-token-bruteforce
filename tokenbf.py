@@ -1,15 +1,12 @@
-import sched, time 
+import time 
 import os
 from urllib.request import urlopen, Request
 import base64
 import random
-import string
 import requests
 from colorama import *
 import sys
 from tkinter import messagebox
-import re
-import json
 
 def banner():
     print("")
