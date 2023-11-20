@@ -70,7 +70,7 @@ def idbf():
             f"{Fore.BLUE}[$]{Style.RESET_ALL}    ID a realizar el Bruteforce:", end=" ")
 
         id = input()
-        if (id.isdigit() and len(id) == 18):
+        if (id.isdigit() and len(id) < 19):
             bf(id)
             break
         else:
