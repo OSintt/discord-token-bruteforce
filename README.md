@@ -8,9 +8,12 @@ bruteforce discord tokens randomly
 # 💻 Install
 ```zsh
 git clone https://github.com/OSintt/discord-token-bruteforce
-cd discord-token-bruteforce && python tokenbf.py
+cd discord-token-bruteforce 
+pip install -r requirements.txt
+python tokenbf.py
 ```
 
 # 🐼 @me
 
 You can find me on twitter as 🐤 <a href="https://twitter.com/osinthappyemo">@osinthappyemo</a>
+or on instagram as 🍢 <a href="https://instagram.com/osintxv">@osintxv</a>
